@@ -24,3 +24,19 @@ RailsAdmin.config do |config|
   end
 end
 ```
+## Config
+
+- `active` - Open association field (default: false)
+
+```ruby
+RailsAdmin.config do |config|
+  config.model MyAwesomeModel do
+    edit do
+      field :associations, :nested_list do
+        active true
+      end
+    end
+  end
+end
+```
+active true
