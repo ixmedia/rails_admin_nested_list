@@ -13,9 +13,9 @@ Gem::Specification.new do |spec|
   spec.authors     = ["Nicolas Milot", "Louis-Philippe Dumas", "iXmédia"]
   spec.email       = "dev@ixmedia.com"
   spec.license     = "MIT"
+  spec.homepage    = "https://github.com/ixmedia/rails_admin_image_manager"
 
-  spec.files         = `git ls-files`.split($/)
-  spec.files         = Dir["{app,lib}/**/*"] + ["Rakefile"]
+  spec.files         = Dir["{app,lib}/**/*", "Rakefile", "README.md"]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
