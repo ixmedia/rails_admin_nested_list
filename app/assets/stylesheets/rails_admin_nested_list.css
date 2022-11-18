@@ -1,0 +1,6 @@
+.form-nested-list .nav-tabs {
+    display: none;
+}
+.form-nested-list + .tab-content > .tab-pane {
+    display: block;
+}
