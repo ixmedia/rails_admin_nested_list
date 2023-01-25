@@ -11,7 +11,7 @@ gem "rails_admin_nested_list"
 ```
 
 Then, add asset to pipeline in app/assets/config/manifest.js file:<br/>
-` /= link rails_admin_nested_list`
+`//= link rails_admin_nested_list`
 
 ## Usage
 
